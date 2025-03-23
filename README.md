@@ -15,7 +15,7 @@ A única rota disponível nesta API é:
   - **Código de Status**: 200 OK
   - **Corpo**: Dados detalhados do animal.
 
-    ```json
+  ```json
   {
     "slug": "monkey",
     "name": "Monkey",
@@ -24,19 +24,20 @@ A única rota disponível nesta API é:
     "diet": "Omnivorous",
     "conservationStatus": "Least Concern"
   }
+  ```
 
 - **Resposta de erro (400)**:
   - **Código de Status**: 400 Bad Request
   - **Corpo**: Mensagem de erro, indicando que o formato da requisição não é válido.
 
   ```json
-  
   {
     "validation": "slug",
     "code": "invalid_string",
     "message": "Invalid slug",
     "path": ["slug"]
   }
+  ```
 
 - **Resposta de erro (404)**:
   - **Código de Status**: 404 Not Found
@@ -46,12 +47,13 @@ A única rota disponível nesta API é:
     {
       "path": ["slug"]
     }
+  ```
 
 - **Exemplo de Requisição**:
   ```bash
   GET /animals/monkey
 
-  ## Como Rodar o Projeto
+#### Como Rodar o Projeto
 
 ### 1. Clone o Repositório
 
