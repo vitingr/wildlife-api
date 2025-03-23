@@ -1,4 +1,4 @@
-# Zoologico API
+# Wildlife API
 
 A API de Zoológico foi desenvolvida para fornecer informações sobre animais com base no seu **slug**. Este projeto foi construído como parte do curso de **Tecnologia em Sistemas para Internet** do **IFSP Capivari**. A API é construída com **Fastify** e **TypeScript**.
 
@@ -53,7 +53,7 @@ A única rota disponível nesta API é:
   ```bash
   GET /animals/monkey
 
-#### Como Rodar o Projeto
+## Como Rodar o Projeto
 
 ### 1. Clone o Repositório
 
